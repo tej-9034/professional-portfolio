@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shivateja Dubala — Full Stack Developer</title>
+  <meta name="description" content="Single-page portfolio website for an academic mini-project." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.png" />
+  <meta name="color-scheme" content="light dark" />
+</head>
+<body>
+  <header class="navbar" role="banner">
+    <a href="#hero" class="brand" aria-label="Home — Hero section">DS</a>
+    <nav class="nav" role="navigation" aria-label="Main">
+      <ul>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="toggle" aria-pressed="false" aria-label="Toggle dark mode">
+      <span class="toggle-icon" aria-hidden="true">🌙</span>
+    </button>
+  </header>
+  <div class="nav-spacer" aria-hidden="true"></div>
+  <section id="hero" class="section hero" role="region" aria-label="Introduction">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1 class="title">Hi, I’m <span class="accent">Shivateja Dubala</span></h1>
+        <p class="subtitle">Full Stack Developer</p>
+        <p class="tagline">I build clean, fast, and secure web apps—front to back.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://imgproxy.attic.sh/insecure/f:webp/q:90/w:1920/plain/https://attic.sh/9fmw1z5yzivnk9vnluj5nxq4uk1u" alt="Developer at a laptop illustration" />
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section" role="region" aria-label="About me">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="text">
+        I’m a B.Tech Computer Science Engineering (Artificial Intelligence) student at Parul University, Vadodara (CGPA: 7.01), with hands-on experience in full-stack web development and backend application development. I build scalable web applications using React, Node.js, Express, JavaScript, and modern frontend technologies. Passionate about solving real-world problems through technology and seeking Full Stack Developer internship or fresher opportunities.
+      </p>
+    </div>
+  </section>
+  <section id="skills" class="section" role="region" aria-label="Skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-grid" aria-label="Skills list">
+        <li class="skill-card" aria-label="JavaScript">
+          <div class="icon" aria-hidden="true">🟨</div>
+          <span>JavaScript</span>
+        </li>
+        <li class="skill-card" aria-label="Python">
+          <div class="icon" aria-hidden="true">🐍</div>
+          <span>Python</span>
+        </li>
+        <li class="skill-card" aria-label="C++">
+          <div class="icon" aria-hidden="true">⚙️</div>
+          <span>C++</span>
+        </li>
+        <li class="skill-card" aria-label="HTML &amp; CSS">
+          <div class="icon" aria-hidden="true">🧩</div>
+          <span>HTML5 &amp; CSS3</span>
+        </li>
+        <li class="skill-card" aria-label="React.js">
+          <div class="icon" aria-hidden="true">⚛️</div>
+          <span>React.js</span>
+        </li>
+        <li class="skill-card" aria-label="Next.js">
+          <div class="icon" aria-hidden="true">▲</div>
+          <span>Next.js</span>
+        </li>
+        <li class="skill-card" aria-label="Tailwind CSS">
+          <div class="icon" aria-hidden="true">🎨</div>
+          <span>Tailwind CSS</span>
+        </li>
+        <li class="skill-card" aria-label="Node.js">
+          <div class="icon" aria-hidden="true">🟢</div>
+          <span>Node.js</span>
+        </li>
+        <li class="skill-card" aria-label="Express.js">
+          <div class="icon" aria-hidden="true">🚂</div>
+          <span>Express.js</span>
+        </li>
+        <li class="skill-card" aria-label="REST APIs">
+          <div class="icon" aria-hidden="true">🔗</div>
+          <span>REST APIs</span>
+        </li>
+        <li class="skill-card" aria-label="NLP Basics">
+          <div class="icon" aria-hidden="true">🤖</div>
+          <span>NLP Basics</span>
+        </li>
+        <li class="skill-card" aria-label="Git">
+          <div class="icon" aria-hidden="true">🔧</div>
+          <span>Git &amp; GitHub</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="projects" class="section" role="region" aria-label="Projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="images/calmchain.jpg" alt="CalmChain — Mental Health Support Platform" class="project-img" />
+          <div class="project-content">
+            <h3>CalmChain</h3>
+            <p>A secure digital platform focused on emotional well-being and anonymous support. Features AI-driven emotion detection, encrypted interactions, and consent-based camera usage to create a judgment-free mental health space.</p>
+            <div class="tags">
+              <span>Node.js</span><span>Express.js</span><span>React.js</span><span>Next.js</span><span>Tailwind CSS</span><span>NLP</span>
+            </div>
+            <div class="links">
+              <a href="https://calmchain-app.vercel.app/" class="link" target="_blank" rel="noopener" aria-label="Live demo for CalmChain">Live</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/acadexa.jpg" alt="Acadexa — AI-Powered Smart Study Planner" class="project-img" />
+          <div class="project-content">
+            <h3>Acadexa</h3>
+            <p>A full-stack AI study planner offering personalized schedules, task tracking, and performance analytics. The AI-driven scheduler adapts dynamically to user goals and deadlines for maximum student productivity.</p>
+            <div class="tags">
+              <span>React.js</span><span>Node.js</span><span>AI</span><span>Vercel</span>
+            </div>
+            <div class="links">
+              <a href="https://acadexa-five.vercel.app/" class="link" target="_blank" rel="noopener" aria-label="Live demo for Acadexa">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id="certifications" class="section" role="region" aria-label="Certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon" aria-hidden="true">☁️</div>
+          <div class="cert-info">
+            <h3>Oracle Cloud Infrastructure 2025</h3>
+            <p>Certified Generative AI Professional</p>
+            <span class="cert-date">July 24, 2025</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" aria-hidden="true">🤖</div>
+          <div class="cert-info">
+            <h3>Oracle Cloud Infrastructure 2025</h3>
+            <p>Certified AI Foundations Associate</p>
+            <span class="cert-date">July 13, 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="resume" class="section" role="region" aria-label="Resume">
+    <div class="container resume-wrap">
+      <h2 class="section-title">Resume</h2>
+      <p class="text" style="margin-bottom: 16px;">Download my latest resume to learn more about my experience, education, and skills.</p>
+      <a class="btn primary" href="images/Shivateja_Dubala_Resume.pdf" download="Shivateja_Dubala_Resume.pdf" aria-label="Download resume PDF">
+        Download PDF
+      </a>
+    </div>
+  </section>
+  <section id="contact" class="section" role="region" aria-label="Contact form">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <div class="grid-2">
+          <div class="form-group">
+            <label for="name">Name<span aria-hidden="true" class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your name" required minlength="2" />
+            <small class="error" id="nameError" aria-live="polite"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email<span aria-hidden="true" class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <small class="error" id="emailError" aria-live="polite"></small>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message<span aria-hidden="true" class="req">*</span></label>
+          <textarea id="message" name="message" rows="5" placeholder="How can I help?" required minlength="10"></textarea>
+          <small class="error" id="messageError" aria-live="polite"></small>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+  <footer class="footer" role="contentinfo">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Shivateja Dubala. All rights reserved.</p>
+    <ul class="social">
+      <li><a href="https://github.com/tej-9034" aria-label="GitHub profile">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/shivateja-dubala-187410374/" aria-label="LinkedIn profile">LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/__.tej._____?igsh=bzY5ejc3dGZrY2Zt&utm_source=qr" aria-label="Instagram profile">Instagram</a></li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
